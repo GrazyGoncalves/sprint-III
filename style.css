@@ -1,0 +1,196 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial;	
+	background-image: url('./PaginaInicial2.jpg');
+	min-height:100vh;
+	background-size: 121%;
+    background-repeat: no-repeat;
+		
+}
+header{
+	width: 70%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;		
+}
+.topo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: Calibri;	
+}
+main{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.cadastro{	
+	background-image: url('./Viajando.jpg');
+	background-size: 100%;
+	width: 70%;
+	border-radius: 30px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cadastro input{
+	width: 350px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+}
+.cadastro-int{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 5px;
+}
+.logo img {
+	width:auto;
+	height: 150px;
+}
+.botoes{
+	display: flex;
+	justify-content: space-between;
+}
+.botoes input{
+	width: 100px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, #534f4f ,#606b6e);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;		
+}
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+footer .container {
+	display: flex;
+	color: white;
+}
+
+footer .container ul {
+	width: 25%;
+}
+
+
+
+footer .redes-sociais {
+	margin-right: 10px;
+}
+
+footer .redes-sociais p {
+	color: white;
+}
+
+footer .redes-sociais ul > p {
+	margin-bottom: 40px;
+}
+
+footer .newsletter h5 {
+	color: white;
+}
+
+footer .newsletter strong {
+	color: white;
+}
+
+footer .newsletter input {
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+footer .newsletter input[type="submit"],
+footer .newsletter input[type="reset"] {
+	background-image: linear-gradient(-50deg, #534f4f, #606b6e);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;
+	color: white;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 30px;
+	outline: none;
+}
+
+footer p {
+	color: white;
+}
+:root {
+	--cor-fundo: rgb(34, 41, 37);
+	--cor-hover: rgb(118, 180, 145);
+	--cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.dp-menu ul {
+	background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+	display: inline;
+	position: relative;
+}
+
+.dp-menu ul li a {
+	color: var(--cor-primaria);
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+	background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+	display: none;
+	left: 0;
+	position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+	display: block;
+}
+
+.dp-menu ul ul {
+	width: 150px
+}
+
+.dp-menu ul ul li a {
+	display: block;
+}
