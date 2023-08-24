@@ -7,4 +7,4 @@ PARTICIPANTES:
 - Karoline Vieira Ernest
 
 Sobre o projeto:
-Nosso projeto se trata de um site para uma agência de viagens que vende pacotes de viagens.
+Nosso projeto trata-se de um e-commerce para uma agência de viagens de aventura pelo Brasil e mundo a fora.
